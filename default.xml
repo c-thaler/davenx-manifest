@@ -11,4 +11,5 @@
   <project name="openembedded/meta-openembedded" path="yocto/poky/meta-openembedded" remote="github" revision="rocko"/>
 
   <project name="c-thaler/meta-altera" path="yocto/poky/meta-altera" remote="github" revision="rocko"/>
+  <project name="c-thaler/meta-qt5" path="yocto/poky/meta-qt5" remote="github" revision="rocko"/>
 </manifest>
