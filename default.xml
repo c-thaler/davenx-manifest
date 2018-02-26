@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com" name="github"/>
+  <remote fetch="http://git.linaro.org" name="linaro"/>
+  <remote fetch="http://git.yoctoproject.org/git" name="yocto"/>
+
+  <default revision="rocko" sync-j="4"/>
+
+  <project name="poky" path="yocto/poky" remote="yocto" revision="rocko"/>
+  <project name="openembedded/meta-linaro" path="yocto/poky/meta-linaro" remote="linaro" revision="rocko"/>
+  <project name="openembedded/meta-openembedded" path="yocto/poky/meta-openembedded" remote="github" revision="rocko"/>
+
+  <project name="c-thaler/meta-altera" path="yocto/poky/meta-altera" remote="github" revision="rocko"/>
+</manifest>
